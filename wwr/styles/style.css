@@ -17,8 +17,6 @@ nav a {text-align: center;
 
 main section {text-align: center;}
 
-main section img {box-sizing: border-box;}
-
 #background {height: 725px;}
 
 body {background-color: #3d3b8e;
@@ -46,11 +44,11 @@ nav a:hover {background-color: black;
 
 #background {background-color: #3d3b8e;}
 
-.msg {background-color: #3d3b8e;
-        line-height: 1.5em;
+.msg {background-color: #396E94;
+             line-height: 1.5em;
         padding: 35px;}
 
-footer {background-color: #3d3b8e;
+footer {background-color: #396E94;
         color: #e6b89c;
         padding: 25px 50px;
         margin-top: 200px;}
@@ -94,4 +92,7 @@ footer .social img {padding-top: 15px ;}
 
 .rivers-card, .camping-card, .rapids-card {margin: 200px 0;}
 
-.card-img {border: 10px black;}
+.card-img {border: 10px solid black;}
+
+main section img {box-sizing: border-box;}
+

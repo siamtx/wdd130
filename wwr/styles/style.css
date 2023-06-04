@@ -142,7 +142,7 @@ footer .social img {padding-top: 15px;
 
 #logo_link {padding-top: 5px;}
 
-.rivers-card, .camping-card, .rapids-card {margin: 200px 0;}
+.rivers-card, .camping-card, .rapids-card {margin: 200px auto;}
 
 .card-img {border: 10px solid black;
         width: 100%;

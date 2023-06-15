@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gudea:wght@700&family=Heebo:wght@300&family=Josefin+Sans&family=Murecho:wght@200&family=Padauk&display=swap');
 
 
+
 #content {max-width: 1600px;
         margin: 0 auto;}
 
@@ -157,6 +158,24 @@ footer .social img {padding-top: 15px;
                 transform: scale(1.1);}
 
 main section img {box-sizing: border-box;}
+
+
+.idaho, .utah {padding: 25px;}
+
+.snake-canyon, .desolation {padding: 25px;
+                        border: 10px solid black;
+                        box-shadow: 5px 5px 10px #6f7364;}
+
+h5, h6 {text-align: center;
+        font-size: 2em;}
+
+#salmon {color: black;
+        font-size: .8em;
+        padding: 15px;}
+#canyon {color: black;
+        font-size: .8em;
+        padding: 15px;}
+
 
 
 

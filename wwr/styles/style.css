@@ -166,6 +166,12 @@ main section img {box-sizing: border-box;}
                         border: 10px solid black;
                         box-shadow: 5px 5px 10px #6f7364;}
 
+.snake-canyon {opacity: .6;
+        transform: scale(1.1);} 
+
+.desolation:hover {opacity: .6;
+                    transform: scale(1.1);}
+
 h5, h6 {text-align: center;
         font-size: 2em;}
 

@@ -33,6 +33,7 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  background-color: #EEE5BF;
   max-width: 1200px;
   margin: 0 auto;
   padding: 4em;

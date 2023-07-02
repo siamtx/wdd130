@@ -56,5 +56,5 @@ footer p {font-size: 1em;}
 
 footer p a:hover {text-decoration: underline;}
 
-footer .social img {padding-top: auto;
+footer .social img {padding-top: 2px;
                     border: 2px solid black;}

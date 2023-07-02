@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gudea:wght@700&family=Heebo:wght@300&family=Josefin+Sans&family=Lato:wght@700&family=Murecho:wght@200&family=Padauk&display=swap');
 
+#content {max-width: 1600px;
+            margin: 0 auto;}
+
+#hero-msg h1, h2, p {text-align: center;}
+
+
 body {background-color: #EEE5BF;
     font-family: "Gudea", "Lato", "Murecho";
     font-size: 22px;
@@ -24,15 +30,12 @@ nav a:hover {background-color: whitesmoke;
     color: black;
     text-decoration: underline;
     border: 2px solid black;}
-/**
-#hero {display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;}
 
-#hero-box {grid-column: 1/4;
-                grid-row: 1/3;
-                z-index: -1;}   
-**/
+#hero-img {width: 100%;
+            align-self: center;}
+   
+.snork {width: 100%;
+        align-self: center;}
 
 footer {background-color: #759EB8;
     color:black;

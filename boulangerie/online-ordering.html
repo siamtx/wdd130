@@ -30,7 +30,7 @@ form li + li {
 label {
   /* Uniform size & alignment */
   display: inline-block;
-  width: 90px;
+  width: 300px;
   text-align: left;
   border: 2.5px solid black;
 }
@@ -152,6 +152,8 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
 }
+
+
 </style>
 </head>
 <body>
@@ -160,7 +162,7 @@ img {vertical-align: middle;}
             
             <header>
                 <a id="logo_link" href="index.html">
-                    <img class="logo" src="images/Le Boulangerie-logos_black.png" alt="Pastries and Breads" width="100" height="100">
+                    <img class="logo" src="images/LeBoulangerie-logos_black.png" alt="Pastries and Breads" width="100" height="100">
                 </a>
                 <nav>
                     <a href="index.html">Home</a>
@@ -168,15 +170,23 @@ img {vertical-align: middle;}
                     <a href="about-us.html">Our History</a>
                     <a href="reservations.html">Reservations</a>                  
                 </nav>
-                <h2>"Place your order!"</h2>
             </header>
 
-            <main>
-                <h1>"PLACE YOUR ONLINE ORDER"</h1>
-                <form action="#"></form>
-                <img src="images/tarte aux framboises.png" alt="strawberry tarte">
-                <h2>"PURCHASE ONLINE"</h2>
+                <div id="hero">
+                    <div id="hero-box">
+                        <img id="hero-img" src="images/tarte aux framboises.png" alt="strawberry tarte">
+                    </div>
+                    <section id="hero-msg">
+                        <h1 class="home-title">PLACE YOUR ONLINE ORDER</h1>
+                        <h4>Order all of your favorites!</h4>
+                        <div class="button-box">
+                            <a class="book" href="barbs.html">Log in</a>
+        
+                        </div>
+                    </section>
+                </div>
 
+            <main>
                 <form action="/my-handling-form-page" method="post">…
                     <ul>
                         <li>
@@ -261,6 +271,9 @@ img {vertical-align: middle;}
                           
                       </ul>
                 </form>
+
+                <p>Customers can purchase online and pick up in the store. All daily menu items, tarts, torts, pastries and breads, are available online for purchase. Le Boulangerie branded merchandise, hats, coffee mugs, shirts, kitchen towels, can also be purchased and picked up in the restaurant. After looking over the menu and daily offerings, customers can choose to place an order in advance. Doing so will ensure your bread, pastries and beverages are ready when you arrive. Customers can also choose to ship non-perishables. RESERVATIONS Making reservations is simple and quick. Customers will need to know the number in their party and desired time of reservation. Simply click on the reservations button in the navigation bar at the top. Complete the simple form and choose the time desired. "</p>    
+
                 
                 <div class="slideshow-container">
 
@@ -291,9 +304,8 @@ img {vertical-align: middle;}
                  
                 </div>
                 <br>
-                <p>Customers can purchase online and pick up in the store. All daily menu items, tarts, torts, pastries and breads, are available online for purchase. Le Boulangerie branded merchandise, hats, coffee mugs, shirts, kitchen towels, can also be purchased and picked up in the restaurant. After looking over the menu and daily offerings, customers can choose to place an order in advance. Doing so will ensure your bread, pastries and beverages are ready when you arrive. Customers can also choose to ship non-perishables. RESERVATIONS Making reservations is simple and quick. Customers will need to know the number in their party and desired time of reservation. Simply click on the reservations button in the navigation bar at the top. Complete the simple form and choose the time desired. "</p>    
                 
-                <img src="images/eclair caramel.png" alt="plate of caramel eclairs">
+                <img id="yum" src="images/eclair caramel.png" alt="plate of caramel eclairs">
 
             </main>
                 <footer>
@@ -310,9 +322,9 @@ img {vertical-align: middle;}
                     <a href="https://instagram.com" target="_blank">
                         <img src="images/instagram.png" alt="instagram icon">
                     </a>
+                </footer>
                     
             </div>
-                </footer>
             
         </section>
     </div>

@@ -1,0 +1,21 @@
+
+
+
+.button-box {display: grid;
+            grid-template-columns: 1fr 1fr 1fr; }
+
+
+.Venture-Royale, .Royal {background-color:  #30bced;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    grid-column: 2;}
+
+
+.Venture-Royale, .Royal {background-color: whitesmoke;
+        color: black;
+        text-decoration: underline;}

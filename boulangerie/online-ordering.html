@@ -29,8 +29,8 @@
 
                 <main>
                     <div id="media">
-                        <form class="blanks" action="/my-handling-form-page" method="post">…
-                            <ul>
+                        <!--<form class="blanks" action="/my-handling-form-page" method="post">… -->
+                            <ul class="column">
                                 <li>
                                     <label for="order">Savourez Pain:</label>
                                     <input type="text" id="name" name="user_name" >
@@ -55,6 +55,8 @@
                                     <label for="order">Madeleines Aux Lemon:</label>
                                     <input type="text" id="name" name="user_name" >
                                 </li>
+                            </ul>
+                            <ul class="column">
                                 <li>
                                     <label for="order">Kouign-amann:</label>
                                     <input type="text" id="name" name="user_name" >
@@ -78,7 +80,9 @@
                                 <li>
                                     <label for="order">Madeleines Aux Pine Honey:</label>
                                     <input type="text" id="name" name="user_name" >
-                                </li>                                    
+                                </li> 
+                            </ul>
+                            <ul class="column">                                 
                                 <li>
                                     <label for="order">Baguette:</label>
                                     <input type="text" id="name" name="user_name" >
@@ -102,16 +106,17 @@
                                 <li>
                                     <label for="order">Madeleines Aux Pistachio:</label>
                                     <input type="text" id="name" name="user_name" >
-                                </li>           
-                                <li>
+                                </li>
+                            </ul>             
+                                <div class="instructions">
                                 <label for="msg">Special Instructions:</label>
                                 <textarea id="msg" name="user_message"></textarea>
-                                </li>
-                                <li class="button">
+                                <div class="button">
                                     <button type="submit">Submit Your Order</button>
-                                </li>                            
+                                </div>
+                                </div>                           
                             </ul>
-                        </form>
+                       <!-- </form>  -->
                         <div class="right">
                             <img id="bottle" src="images/tarteauxframboises.png" alt="strawberry tarte">
             

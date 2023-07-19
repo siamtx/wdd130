@@ -30,12 +30,16 @@ nav a:hover {background-color: whitesmoke;
     text-decoration: underline;
     border: 2px solid black;}
 
+#logo_link {padding-top: 5px;
+    justify-self: center;
+    align-self: center;}
+
 #hero {display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
     margin-top: -100px;}
 
-#hero-img {width: 100%;
+#hero-img {width: 80%;
             margin-left: 10%;
             margin-right: 10%;}
 
@@ -49,27 +53,34 @@ nav a:hover {background-color: whitesmoke;
             text-align: center;
             color: black;}
 
-.button-box {text-align: center;}
-
-#logo_link {padding-top: 5px;
-    justify-self: center;
-    align-self: center;}
-
-#hero-box {grid-column: 2/4;
-            grid-row: 2/3;
-            z-index: -1;}
+#hero-box {grid-column: 2/3;
+            grid-row: 1/2;
+            z-index: -1;
+            margin-top: 105px;}
 
 #hero-msg {grid-column: 2/3;
             grid-row: 1/2;
-            margin-top: 100px;}
+            margin-top: 100px;
+            font-size: 50px;}
 
-.blabber {grid-column: 2/3;
-          width: 80%;
-          margin-left: 10%;
-          margin-right: 10%;}
+.blabber {margin-left: 10%;
+          margin-right: 10%;
+          padding: 25px; }
 
-.snork {width: 25%;
-        margin-left: 10%;}
+.snork {float: right;
+        border: 3px solid #000;
+        border-radius: 5px;
+        margin: -280px 25px 15px 20px;}
+
+.button {background-color:  #759EB8;
+        width: 25%;
+        color: black;
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 10%;
+        border-radius: 5px;
+        border: 2px solid black;}
 
 .box {display: grid;
     grid-template-columns: 1fr 3fr 1fr;}
@@ -91,15 +102,21 @@ nav a:hover {background-color: whitesmoke;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;}
 
-form {
-/* Center the form on the page */
+/**form {
+/* Center the form on the page 
 margin: .5em;
 width: 350px;
-/* Form outline */
+/* Form outline 
 padding: 1.5em;
 border: 2.5px solid black;
 border-radius: 1em;
-} 
+} **/
+.instructions {
+    grid-column: 2/3;
+    margin-top: 25px;}
+    
+input, textarea { margin-bottom: 10px;}
+
 
 ul {
 list-style: none;
@@ -114,7 +131,7 @@ margin-top: 10px;
 label {
 /* Uniform size & alignment */
 display: inline-block;
-width: 350px;
+width: 325px;
 text-align: left;
 border: 2.5px solid black;
 }
